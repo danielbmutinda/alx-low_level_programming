@@ -1,14 +1,9 @@
-/*
- * File: 0-reset_to_98.c
- * Auth: Brennan D Baraban
- */
-
 #include "main.h"
 
 /**
- * reset_to_98 - Takes a pointer to an int and updates
- * the value it points to to 98.
- * @n: The pointer to an int.
+ * reset_to_98 - updates the value of the variable
+ * the pointer points to to 98
+ * @n: pointer to the variable to update
  */
 void reset_to_98(int *n)
 {
