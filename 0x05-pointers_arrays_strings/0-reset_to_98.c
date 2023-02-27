@@ -1,9 +1,11 @@
-#include "main.h"
+#include "holberton.h"
+
 /**
-* reset_to_98 -a function that takes a pointer to an int
-* @n: puntero
-* Return: (0)
-*/
+ * reset_to_98 - reset to 98
+ * @n: the pointer value
+ *
+ * Return: void
+ */
 void reset_to_98(int *n)
 {
 	*n = 98;
